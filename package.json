@@ -1,0 +1,108 @@
+{
+  "_from": "use-wallet@^0.13.4",
+  "_id": "use-wallet@0.13.4",
+  "_inBundle": false,
+  "_integrity": "sha512-C5bBobwAKi/SbIX+JzHkxChqU1A2tIcx8fQPoL0gzTGYkqvH97EchnT8yRQGMl2RiICua2nGMLrfa42Yexzs+Q==",
+  "_location": "/use-wallet",
+  "_phantomChildren": {
+    "debug": "4.3.4",
+    "globby": "11.1.0",
+    "is-glob": "4.0.3",
+    "lru-cache": "6.0.0",
+    "tsutils": "3.21.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "use-wallet@^0.13.4",
+    "name": "use-wallet",
+    "escapedName": "use-wallet",
+    "rawSpec": "^0.13.4",
+    "saveSpec": null,
+    "fetchSpec": "^0.13.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/use-wallet/-/use-wallet-0.13.4.tgz",
+  "_shasum": "78c8facfdd910a03719ef808043534a8f367c20a",
+  "_spec": "use-wallet@^0.13.4",
+  "_where": "D:\\Working\\Freelancing\\7.TFT\\Project\\TFTWebsite",
+  "author": {
+    "name": "Aragon Association",
+    "email": "legal@aragon.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@aragon/provided-connector": "^6.0.8",
+    "@typescript-eslint/parser": "^4.1.0",
+    "@web3-react/core": "6.1.9",
+    "@web3-react/fortmatic-connector": "6.1.6",
+    "@web3-react/frame-connector": "6.0.9",
+    "@web3-react/injected-connector": "6.0.7",
+    "@web3-react/ledger-connector": "6.1.9",
+    "@web3-react/portis-connector": "6.1.6",
+    "@web3-react/torus-connector": "6.1.7",
+    "@web3-react/walletconnect-connector": "6.2.4",
+    "@web3-react/walletlink-connector": "6.2.5",
+    "jsbi": "^3.1.4",
+    "prop-types": "^15.7.2",
+    "regenerator-runtime": "^0.13.7",
+    "rollup-plugin-image-files": "^1.4.2"
+  },
+  "deprecated": false,
+  "description": "[<img src=\"https://img.shields.io/npm/v/use-wallet\" alt=\"\" />](https://www.npmjs.com/package/use-wallet) [<img src=\"https://img.shields.io/bundlephobia/minzip/use-wallet\" alt=\"\" />](https://bundlephobia.com/result?p=use-wallet)",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@web3-react/abstract-connector": "^6.0.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "name": "use-wallet",
+  "peerDependencies": {
+    "react": "^16.13.1 || ^17",
+    "react-dom": "^16.13.1 || ^17"
+  },
+  "scripts": {
+    "build": "tsdx build",
+    "lint": "tsdx lint src",
+    "prepare": "rm -rf ./dist && yarn build",
+    "prepublishOnly": "git push && git push --tags",
+    "start": "tsdx watch",
+    "test": "tsdx test --passWithNoTests"
+  },
+  "sideEffects": false,
+  "types": "dist/cjs/index.d.ts",
+  "version": "0.13.4"
+}
